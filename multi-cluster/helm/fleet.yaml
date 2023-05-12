@@ -15,14 +15,6 @@ targetCustomizations:
   clusterSelector:
     matchLabels:
       env: test
-- name: test3
-  helm:
-    values:
-      replicas: 1
-  clusterSelector:
-    matchLabels:
-      env: test3
-
 
 - name: prod
   helm:
